@@ -1,0 +1,6 @@
+CREATE OR REPLACE FUNCTION public.addition (a INTEGER,b INTEGER)
+RETURNS integer AS $$
+BEGIN
+   RETURN a+b ;
+END;
+$$ LANGUAGE plpgsql;
